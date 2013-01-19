@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestCountUp(t *testing.T) {
+func TestCount(t *testing.T) {
 	n := 10
 
 	j := 0
