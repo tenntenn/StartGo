@@ -21,7 +21,7 @@ func TestCount(t *testing.T) {
 }
 
 func TestStepBy(t *testing.T) {
-	step := 3
+	step := 1
 	n := 200
 	j := 0
 	for i := range StepBy(Count(n), step) {
